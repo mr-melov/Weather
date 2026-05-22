@@ -1,0 +1,88 @@
+# =========================
+# Dependencies
+# =========================
+node_modules/
+
+# pnpm
+.pnpm-store/
+
+# =========================
+# Environment variables
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Logs
+# =========================
+logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# =========================
+# Next.js
+# =========================
+frontend/.next/
+frontend/out/
+frontend/build/
+
+# Turbopack
+frontend/.turbo/
+
+# =========================
+# NestJS
+# =========================
+backend/dist/
+backend/coverage/
+
+# =========================
+# Prisma
+# =========================
+backend/prisma/*.db
+backend/prisma/*.db-journal
+
+# =========================
+# Cache
+# =========================
+.cache/
+
+# =========================
+# IDE
+# =========================
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+.idea/
+
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Testing
+# =========================
+coverage/
+
+# =========================
+# Temporary files
+# =========================
+tmp/
+temp/
+
+# =========================
+# Mac
+# =========================
+.AppleDouble
+.LSOverride
+
+# =========================
+# TypeScript
+# =========================
+*.tsbuildinfo
